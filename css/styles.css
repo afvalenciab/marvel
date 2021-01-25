@@ -1,0 +1,115 @@
+@import './normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+  src: url(../fonts/roboto-condensed-bold.ttf);
+  font-family: 'Roboto Condensed Bold';
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 92px 1fr 378px;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+
+  background: #202020;
+  color: #fff;
+
+  font-family: 'Roboto Condensed Bold','Trebuchet MS',Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.menu-upper {
+  border-bottom: 1px solid #393939;
+  height: 52px;
+  padding: 0 20px;
+}
+
+.menu-user-container {
+  position: relative;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* sign in */
+.menu-user {
+  display: inline-flex;
+  height: 51px;
+  padding: 0 25px;
+  align-items: center;
+  border-right: 1px solid #393939;
+  border-left: 1px solid #393939;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.logo-in {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.pipe {
+  margin: 0 5px;
+  -webkit-font-smoothing: none;
+}
+/* sing in */
+
+/* mastercard */
+.mastercard-container {
+  display: inline-flex;
+  height: 51px;
+}
+
+.mastercard {
+  display: inline-flex;
+  align-items: center;
+  border-right: 1px solid #393939;
+  border-left: 1px solid #393939;
+  padding: 0 30px;
+  line-height: .9;
+  cursor: pointer;
+}
+
+.img-mastercard {
+  height: 17px;
+  margin-top: 1px;
+  margin-right: 10px;
+}
+
+.search {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 15px;
+  border-right: 1px solid #393939;
+}
+/* mastercard */
+
+/* Logo MARVEL */
+.logo-marvel {
+  position: absolute;
+  width: 130px;
+  height: 52px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+/* Logo MARVEL */
+
+
+.content-page {
+  border: 1px solid blue;
+}
+
+.footer {
+  border: 1px solid green;
+}
