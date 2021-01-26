@@ -105,11 +105,60 @@
 }
 /* Logo MARVEL */
 
+/* Menu lower */
+.nav-page {
+  height: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.menu-lower {
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.menu-lower > li {
+  height: 100%;
+  padding: 0 18px;
+  position: relative;
+}
+
+.link-menu {
+  transition-delay: 300ms;
+  transition-timing-function: ease;
+  cursor: pointer;
+}
+
+.link-menu > a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  transition-delay: 300ms;
+  transition-timing-function: ease;
+}
+
+.link-menu:hover > a {
+  border-bottom: 2px solid #e62429;
+}
+
+.menu-lower:hover .link-menu:hover {
+  opacity: 1;
+}
+
+.menu-lower:hover .link-menu {
+  opacity: .5;
+}
+
+/*  */
 
 .content-page {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .footer {
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
